@@ -1,0 +1,8 @@
+# Ensure text files use consistent line endings (LF) across platforms
+* text=auto eol=lf
+
+# Treat binary files as binary (no line ending conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
