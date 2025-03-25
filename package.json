@@ -1,0 +1,21 @@
+{
+  "name": "typography-website",
+  "version": "1.0.0",
+  "description": "TypoVerse - A cosmic typography website",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url ./ --out-dir dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "live-server": "^1.2.2",
+    "parcel-bundler": "^1.12.5"
+  },
+  "homepage": "https://MeghanaRavuri.github.io/typography-website",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5"
+  }
+}
